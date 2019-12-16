@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class Artists extends Model
 {
     protected $fillable= [
-        'name'
+        'name',
+        'bio',
+        'image'
     ];
 }
