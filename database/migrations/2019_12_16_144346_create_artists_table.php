@@ -18,7 +18,6 @@ class CreateArtistsTable extends Migration
             $table->string('name', 250);
             $table->text('bio');
             $table->string('image', 250);
-            $table->timestamps();
         });
     }
 
