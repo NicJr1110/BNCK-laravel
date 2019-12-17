@@ -21,6 +21,9 @@ $router->group(['prefix' => 'stages'], function ($router) {
 
     $router->GET("", "Stages@index");
     $router->GET("{stage}", "Stages@show");
+    $router->POST("", "Stages@store");
+    $router->PUT("{stage}", "Stages@update");
+    $router->DELETE("{stage}", "Stages@destroy");
 
 });
 
