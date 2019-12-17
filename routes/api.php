@@ -16,3 +16,17 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+$router->group(['prefix' => 'stages'], function ($router) {
+
+    $router->GET("", "Stages@index");
+    $router->GET("{stage}", "Stages@show");
+
+});
+
+$router->group(['prefix' => 'artists'], function ($router) {
+
+    $router->GET("", "Artists@index");
+    $router->GET("{artist}", "Artists@show");
+
+});
