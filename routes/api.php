@@ -25,6 +25,8 @@ $router->group(['prefix' => 'stages'], function ($router) {
     $router->PUT("{stage}", "Stages@update");
     $router->DELETE("{stage}", "Stages@destroy");
 
+    $router->GET("{stage}/performances", "Performances@index");
+
 });
 
 $router->group(['prefix' => 'artists'], function ($router) {
