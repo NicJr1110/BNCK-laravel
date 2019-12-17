@@ -1,0 +1,115 @@
+[{
+        "id": 1,
+        "stage_id": 1,
+        "artist_id": 13,
+        "timedate": "2020-07-11 21:15:00",
+        "duration": "01:45:00"
+    }, {
+        "id": 2,
+        "stage_id": 1,
+        "artist_id": 14,
+        "timedate": "2020-07-11 19:00:00",
+        "duration": "01:15:00"
+    }, {
+        "id": 3,
+        "stage_id": 1,
+        "artist_id": 15,
+        "timedate": "2020-07-11 15:00:00",
+        "duration": "01:00:00"
+    }, {
+        "id": 4,
+        "stage_id": 1,
+        "artist_id": 16,
+        "timedate": "2020-07-11 13:00:00",
+        "duration": "01:00:00"
+    }, {
+        "id": 5,
+        "stage_id": 2,
+        "artist_id": 1,
+        "timedate": "2020-07-11 14:00:00",
+        "duration": "01:00:00"
+    }, {
+        "id": 6,
+        "stage_id": 2,
+        "artist_id": 2,
+        "timedate": "2020-07-11 23:00:00",
+        "duration": "01:00:00"
+    }, {
+        "id": 7,
+        "stage_id": 2,
+        "artist_id": 3,
+        "timedate": "2020-07-11 20:15:00",
+        "duration": "01:00:00"
+    }, {
+        "id": 8,
+        "stage_id": 2,
+        "artist_id": 4,
+        "timedate": "2020-07-11 18:00:00",
+        "duration": "01:00:00"
+    },  {
+        "id": 9,
+        "stage_id": 3,
+        "artist_id": 9,
+        "timedate": "2020-07-11 23:30:00",
+        "duration": "01:00:00"
+    }, {
+        "id": 10,
+        "stage_id": 3,
+        "artist_id": 10,
+        "timedate": "2020-07-11 18:00:00",
+        "duration": "01:00:00"
+    }, {
+        "id": 11,
+        "stage_id": 3,
+        "artist_id": 11,
+        "timedate": "2020-07-11 20:15:00",
+        "duration": "01:00:00"
+    }, {
+        "id": 12,
+        "stage_id": 3,
+        "artist_id": 12,
+        "timedate": "2020-07-11 14:00:00",
+        "duration": "01:00:00"
+    },  {
+        "id": 13,
+        "stage_id": 4,
+        "artist_id": 5,
+        "timedate": "2020-07-11 21:30:00",
+        "duration": "01:30:00"
+    }, {
+        "id": 14,
+        "stage_id": 4,
+        "artist_id": 6,
+        "timedate": "2020-07-11 19:00:00",
+        "duration": "01:15:00"
+    }, {
+        "id": 15,
+        "stage_id": 4,
+        "artist_id": 7,
+        "timedate": "2020-07-11 17:00:00",
+        "duration": "01:00:00"
+    }, {
+        "id": 16,
+        "stage_id": 4,
+        "artist_id": 8,
+        "timedate": "2020-07-11 15:00:00",
+        "duration": "01:00:00"
+    }, {
+        "id": 17,
+        "stage_id": 1,
+        "artist_id": 17,
+        "timedate": "2020-07-11 17:00:00",
+        "duration": "01:00:00"
+    },{
+        "id": 18,
+        "stage_id": 2,
+        "artist_id": 11,
+        "timedate": "2020-07-11 16:00:00",
+        "duration": "01:00:00"
+    }, {
+        "id": 19,
+        "stage_id": 3,
+        "artist_id": 5,
+        "timedate": "2020-07-11 16:00:00",
+        "duration": "01:00:00"
+}]
