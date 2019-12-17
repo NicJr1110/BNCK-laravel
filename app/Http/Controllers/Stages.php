@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Stage;
+use App\Http\Resources\StageResource;
+use App\Http\Resources\StageListResource;
 
 
 class Stages extends Controller
@@ -15,7 +17,7 @@ class Stages extends Controller
      */
     public function index()
     {
-        return Stage::all();
+        return StageListResource::collection(Stage::all());
     }
 
     /**
@@ -28,7 +30,9 @@ class Stages extends Controller
     {
         $data = $request->all();
 
-        return Stage::create($data);
+        $stage = Stage::create($data);
+
+        return new StageResource($stage);
     }
 
     /**
@@ -37,9 +41,9 @@ class Stages extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Stage $stage)
     {
-        return Stage::find($id);
+        return new StageResource($stage);
     }
 
     /**
@@ -49,15 +53,13 @@ class Stages extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Stage $stage)
     {
-        $stage = Stage::find($id);
-
-        $data = $request->all();
+        $data = $request->only(["name"]);
 
         $stage->fill($data)->save();
 
-        return $stage;
+        return new StageResource($stage);
     }
 
     /**
@@ -66,10 +68,8 @@ class Stages extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Stage $stage)
     {
-        $stage = Stage::find($id);
-
         $stage->delete();
 
         return response(null, 204);
