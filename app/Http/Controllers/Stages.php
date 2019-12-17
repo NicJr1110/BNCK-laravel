@@ -13,9 +13,9 @@ class Stages extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Stage $stage)
+    public function index()
     {
-        return $stage;
+        return Stage::all();
     }
 
     /**
