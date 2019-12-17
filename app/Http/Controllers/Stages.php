@@ -26,7 +26,9 @@ class Stages extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = $request->all();
+
+        return Stage::create($data);
     }
 
     /**
@@ -49,7 +51,13 @@ class Stages extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $stage = Stage::find($id);
+
+        $data = $request->all();
+
+        $stage->fill($data)->save();
+
+        return $stage;
     }
 
     /**
@@ -60,6 +68,10 @@ class Stages extends Controller
      */
     public function destroy($id)
     {
-        //
+        $stage = Stage::find($id);
+
+        $stage->delete();
+
+        return response(null, 204);
     }
 }
