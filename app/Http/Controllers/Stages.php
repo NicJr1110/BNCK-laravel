@@ -37,7 +37,7 @@ class Stages extends Controller
      */
     public function show($id)
     {
-        //
+        return Stage::find($id);
     }
 
     /**

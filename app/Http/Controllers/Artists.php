@@ -36,7 +36,7 @@ class Artists extends Controller
      */
     public function show($id)
     {
-        //
+        return Artist::find($id);
     }
 
     /**
