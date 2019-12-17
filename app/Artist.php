@@ -13,6 +13,8 @@ class Artist extends Model
         'image'
     ];
 
+    public $timestamps = false;
+
     public function performances() 
     {
         return $this->hasMany(Performance::class);

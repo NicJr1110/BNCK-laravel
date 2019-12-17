@@ -13,6 +13,8 @@ class Performance extends Model
         'duration'
     ];
 
+    public $timestamps = false;
+
     public function stage()
     {
         return $this->belongsTo(Stage::class);

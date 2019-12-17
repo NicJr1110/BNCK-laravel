@@ -19,7 +19,6 @@ class CreatePerformancesTable extends Migration
             $table->time('duration');
             $table->bigInteger('stage_id')->unsigned()->nullable();
             $table->bigInteger('artist_id')->unsigned()->nullable();
-            $table->timestamps();
 
             $table->foreign('stage_id')->references('id')->on('stages')->onDelete('cascade');
             $table->foreign('artist_id')->references('id')->on('artists')->onDelete('cascade');

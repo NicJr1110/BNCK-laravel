@@ -12,6 +12,8 @@ class Stage extends Model
         'name'
     ];
 
+    public $timestamps = false;
+
     public function performances() 
     {
         return $this->hasMany(Performance::class);
