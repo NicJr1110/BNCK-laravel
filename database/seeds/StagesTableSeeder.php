@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Stages;
+use App\Stage;
 
 class StagesTableSeeder extends Seeder
 {
@@ -16,7 +16,7 @@ class StagesTableSeeder extends Seeder
         $json= File::get('database/data/stages.json');
         $data=json_decode($json);
         foreach ($data as $obj) {
-            Stages::create(array(
+            Stage::create(array(
                 'name' =>$obj->name
             ));
         }

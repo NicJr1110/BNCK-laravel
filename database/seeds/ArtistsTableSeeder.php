@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Artists;
+use App\Artist;
 
 class ArtistsTableSeeder extends Seeder
 {
@@ -16,7 +16,7 @@ class ArtistsTableSeeder extends Seeder
         $json= File::get('database/data/artists.json');
         $data=json_decode($json);
         foreach ($data as $obj) {
-            Artists::create(array(
+            Artist::create(array(
                 'name' =>$obj->name,
                 'bio' =>$obj->bio,
                 'image' =>$obj->image
