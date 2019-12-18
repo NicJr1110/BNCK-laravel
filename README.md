@@ -26,9 +26,9 @@ The data that will be seeding is found in database/data
  - stages.json
 
 run the following 
-vagrant ssh 
-cd code
-artisan migrate:refresh -seed
+ - vagrant ssh 
+ - cd code
+ - artisan migrate:refresh -seed
 
 ---
 
@@ -39,7 +39,6 @@ artisan migrate:refresh -seed
 #### `GET /stages`
 
 Will return a list of all stages.
-
 
 #### `POST /stages`
 
@@ -77,7 +76,7 @@ Will return a list of all artists. In JSON format found in database/data.
 
 #### `POST /artists`
 
-This will add and artist and auto generate and Id. 
+This will add an artist and auto generate and Id. 
 
 ##### Request
 
@@ -94,14 +93,6 @@ This will update the aritst with given id
 
 TBC
 
-#### `PATCH /artists/<id>`
-
-TBC
-
-##### Request
-
-TBC
-
 #### `DELETE /artists/<id>`
 
 This will delete an artist by given id.
@@ -110,34 +101,38 @@ This will delete an artist by given id.
 
 ### Performances
 
-#### `POST /performaces`
-
-TBC
-
-##### Request
-
-TBC
-
-#### `GET /performaces/<id>
+#### `GET /stages/<id>/performances`
 Will return an performance with the given `id`
 
-#### `PUT /performaces/<id>`
+#### Data Format 
 
-This will update the performance with given id
+{ 
+    "data": [
+        {
+            "id": 1,
+            "timedate": "2020-07-11 21:15:00",
+            "duration": "01:45:00",
+            "stage_id": 1,
+            "artist_id": 13
+        },
+    ]
+}
 
-##### Request
+#### `GET /artists/<id>/performances`
 
-TBC
+will will update the performance with given id
 
-#### `PATCH /perfomances/<id>`
+#### Data Format 
 
-TBC
-
-##### Request
-
-TBC
-
-#### `DELETE /perfomances/<id>`
-
-This will delete an performance by given id.
+{ 
+    "data": [
+        {
+            "id": 1,
+            "timedate": "2020-07-11 21:15:00",
+            "duration": "01:45:00",
+            "stage_id": 1,
+            "artist_id": 13
+        },
+    ]
+}
 
