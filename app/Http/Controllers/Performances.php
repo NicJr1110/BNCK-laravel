@@ -3,20 +3,21 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Artist;
-use App\Http\Resources\ArtistResource;
-use App\Http\Resources\ArtistListResource;
+use App\Stage;
+use App\Performance;
+use App\Http\Resources\PerformanceResource;
 
-class Artists extends Controller
+
+class Performances extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Stage $stage)
     {
-        return ArtistListResource::collection(Artist::all());
+        return PerformanceResource::collection($stage->performances);
     }
 
     /**
@@ -27,12 +28,7 @@ class Artists extends Controller
      */
     public function store(Request $request)
     {
-        $data = $request->all();
-
-        $artist = Artist::create($data);
-
-        return new ArtistResource($artist);
-
+        //
     }
 
     /**
@@ -41,9 +37,9 @@ class Artists extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Artist $artist)
+    public function show($id)
     {
-        return new ArtistResource($artist);
+        //
     }
 
     /**
@@ -53,14 +49,9 @@ class Artists extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Artist $artist)
+    public function update(Request $request, $id)
     {
-        $artist = Artist::find($id);
-        $data = $request->all();
-
-        $artist->fill($data)->save();
-
-        return new ArtistResouce($artist);
+        //
     }
 
     /**
@@ -69,10 +60,8 @@ class Artists extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Artist $artist)
+    public function destroy($id)
     {
-        $artist->delete();
-
-        return response(null, 204);
+        //
     }
 }
