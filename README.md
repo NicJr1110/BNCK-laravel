@@ -102,7 +102,7 @@ This will delete an artist by given id.
 ### Performances
 
 #### `GET /stages/<id>/performances`
-Will return an performance with the given `id`
+Will return the performances on a stage with the given `id` 
 
 #### Data Format 
 
@@ -120,7 +120,7 @@ Will return an performance with the given `id`
 
 #### `GET /artists/<id>/performances`
 
-will will update the performance with given id
+Will get performances of the artist with the provided `id`
 
 #### Data Format 
 
