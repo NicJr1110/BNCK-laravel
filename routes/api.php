@@ -33,5 +33,8 @@ $router->group(['prefix' => 'artists'], function ($router) {
 
     $router->GET("", "Artists@index");
     $router->GET("{artist}", "Artists@show");
+    $router->POST("", "Artists@store");
+    $router->PUT("{artist}", "Artists@update");
+    $router->DELETE("{artist}", "Artists@destroy");
 
 });

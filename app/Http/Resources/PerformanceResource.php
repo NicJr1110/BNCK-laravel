@@ -19,8 +19,8 @@ class PerformanceResource extends JsonResource
             "timedate" => $this->timedate,
             "duration" => $this->duration,
 
-            "stage_name" => $this->stage->name,
-            "artist_name" => $this->artist->name,
+            "stage_id" => $this->stage_id,
+            "artist_id" => $this->artist_id,
         ];
     }
 }

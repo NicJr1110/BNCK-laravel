@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Artist;
+use App\Http\Resources\ArtistResource;
+use App\Http\Resources\ArtistListResource;
 
 class Artists extends Controller
 {
@@ -14,7 +16,7 @@ class Artists extends Controller
      */
     public function index()
     {
-        return Artist::all();
+        return ArtistListResource::collection(Artist::all());
     }
 
     /**
@@ -25,7 +27,12 @@ class Artists extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = $request->all();
+
+        $artist = Artist::create($data);
+
+        return new ArtistResource($artist);
+
     }
 
     /**
@@ -34,9 +41,9 @@ class Artists extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Artist $artist)
     {
-        return Artist::find($id);
+        return new ArtistResource($artist);
     }
 
     /**
@@ -46,9 +53,14 @@ class Artists extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Artist $artist)
     {
-        //
+        $artist = Artist::find($id);
+        $data = $request->all();
+
+        $artist->fill($data)->save();
+
+        return new ArtistResouce($artist);
     }
 
     /**
@@ -57,8 +69,10 @@ class Artists extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Artist $artist)
     {
-        //
+        $artist->delete();
+
+        return response(null, 204);
     }
 }
