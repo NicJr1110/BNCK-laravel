@@ -3,8 +3,9 @@
 namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
+use App\Http\Resources\StagePerformanceListResource;
 
-class PerformanceResource extends JsonResource
+class StagePerformanceResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -16,10 +17,9 @@ class PerformanceResource extends JsonResource
     {
         return [
             "id" => $this->id,
-            "timedate" => $this->timedate,
-            "duration" => $this->duration,
-            "stage_id" => $this->stage_id,
-            "artist_id" => $this->artist_id,   
+            "name" => $this->name,
+            "performances" => StagePerformanceListResource::collection($this->performances),
+
         ];
     }
 }

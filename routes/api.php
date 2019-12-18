@@ -19,13 +19,15 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 $router->group(['prefix' => 'stages'], function ($router) {
 
-    $router->GET("", "Stages@index");
-    $router->GET("{stage}", "Stages@show");
-    $router->POST("", "Stages@store");
-    $router->PUT("{stage}", "Stages@update");
-    $router->DELETE("{stage}", "Stages@destroy");
+    $router->GET("", "Stages@index"); // uses the StageListResource
+    $router->GET("{stage}", "Stages@show"); // use the StageResource
+    $router->POST("", "Stages@store"); // use the Stage Resource
+    $router->PUT("{stage}", "Stages@update"); // use the StageResource
+    $router->DELETE("{stage}", "Stages@destroy"); // 204 is returned
 
-    $router->GET("{stage}/performances", "Performances@index");
+    $router->GET("{stage}/performances", "Performances@indexByStage"); 
+    //$router->GET("{stage}/performances", "Performances@showForStage");
+    
 
 });
 
@@ -36,5 +38,8 @@ $router->group(['prefix' => 'artists'], function ($router) {
     $router->POST("", "Artists@store");
     $router->PUT("{artist}", "Artists@update");
     $router->DELETE("{artist}", "Artists@destroy");
+
+    $router->GET("{artist}/performances", "Performances@indexByArtist");
+    //$router->GET("{artist}/performances", "Performances@showForArtist");
 
 });
