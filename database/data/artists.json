@@ -2,87 +2,87 @@
     {
         "id": 1,
         "name": "Sister Sledge",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "bio": "Sister Sledge is an American musical vocal group from Philadelphia, Pennsylvania. Formed in 1971, the group consisted of sisters Debbie, Joni, Kim and Kathy Sledge. The siblings achieved international success at the height of the disco era. The year 1979 saw the release of their breakthrough album We Are Family, which peaked at number three on the US Album Chart and included the 1979 US top ten singles 'He's the Greatest Dancer' and 'We Are Family'. A third single, 'Lost in Music', reached the US top forty. 'We Are Family' earned a Grammy Award nomination for Best R&B Performance by a Duo or Group with Vocal.",
+        "image": "http://www.soulwalking.co.uk/00Images%202014-3/SISTERSLEDGE-Nice1.jpg"
     }, {
         "id": 2,
         "name": "Earth, Wind & Fire",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "bio": "Earth, Wind & Fire is an American band that has spanned the musical genres of R&B, soul, funk, jazz, disco, pop, rock, dance, Latin, and Afro pop. They have been described as one of the most innovative and commercially successful acts of all time. Rolling Stone called them 'innovative, precise yet sensual, calculated yet galvanizing' and declared that the band 'changed the sound of black pop'. VH1 has also described EWF as 'one of the greatest bands' ever.",
+        "image": "https://lastfm.freetls.fastly.net/i/u/arO/377b67b0f02f4fbfa8bc50d2b824445c"
     }, {
         "id": 3,
         "name": "James Brown",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "bio": "James Joseph Brown is an American singer, songwriter, dancer, musician, record producer and bandleader. A progenitor of funk music and a major figure of 20th century music and dance, he is often referred to as the 'Godfather of Soul' and 'Soul Brother No. 1'. In a career that lasted over 50 years, he influenced the development of several music genres.",
+        "image": "https://www.billboard.com/files/media/james-brown-1986-billboard-1548.jpg"
     }, {
         "id": 4,
         "name": "The Supremes",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "bio": "The Supremes were an American female singing group and a premier act of Motown Records during the 1960s. Founded as The Primettes in Detroit, Michigan, in 1960, the Supremes were the most commercially successful of Motown's acts and are, to date, America's most successful vocal group with 12 number one singles on the Billboard Hot 100. Most of these hits were written and produced by Motown's main songwriting and production team, Holland-Dozier-Holland. At their peak in the mid-1960s, the Supremes rivaled the Beatles in worldwide popularity, and it is said that their success made it possible for future African American R&B and soul musicians to find mainstream success.",
+        "image": "https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/10/7/1412692099831/58281550-a928-4db7-8f03-603159fa9d07-2060x1236.jpeg"
     }, {
         "id": 5,
-        "name": "The Artist formally known as Prince",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "name": "Prince",
+        "bio": "Prince Rogers Nelson is an American singer, songwriter, musician, record producer, dancer, actor, and filmmaker. A guitar virtuoso known for his genre-crossing work, falsetto singing voice and flamboyant stage appearances, Prince is regarded as one of the greatest musicians of all time. His innovative music integrated a wide variety of styles, including funk, rock, R&B, new wave, soul, psychedelia, and pop. Prince pioneered the late 1970s Minneapolis sound, a funk rock subgenre drawing from synth-pop and new wave.",
+        "image": "http://cdn.images.dailystar.co.uk/dynamic/140/photos/135000/620x/5732ebfac7bd1_princemain.jpg"
     }, {
         "id": 6,
-        "name": "Sza",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "name": "SZA",
+        "bio": "SZA is an American singer and songwriter. In October 2012, SZA self-released her debut EP, which she then followed up with her second EP, S, in April 2013. In July 2013, she signed with the hip hop record label Top Dawg Entertainment, through which she released Z, her third EP and first retail release, in April 2014.",
+        "image": "https://www.hypesoul.com/wp-content/uploads/2018/06/DfKB69QUcAA6B5h.jpg"
     }, {
         "id": 7,
         "name": "Erykah Badu",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "bio": "Erykah Badu is an American singer-songwriter, record producer and actress. Badu's career began after opening a show for D'Angelo in 1994 in Fort Worth; record label executive Kedar Massenburg was highly impressed with her performance and signed her to Kedar Entertainment. Her first album, Baduizm, was released in February 1997. It spawned three singles: 'On & On', 'Next Lifetime' and 'Otherside of the Game'. The album was certified triple Platinum by the Recording Industry Association of America (RIAA). Her first live album, Live, was released in November 1997 and was certified double Platinum by the RIAA.",
+        "image": "https://toofab.akamaized.net/2018/01/24/erykah-badu-getty-810x610.jpg"
     }, {
         "id": 8,
         "name": "Lulu James",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "bio": "James was born in Tanzania, descended from a Maasai tribe. She moved to the United Kingdom when she was six years old and settled in South Shields in North East England. She enrolled on a music development course, where she met her primary producer and co-writer DomZilla.James self-released her debut EP, Rope Mirage, in 2012 and subsequently signed to Black Butter Records, which issued her debut single, 'Be Safe' / 'Stuck'.",
+        "image": "https://static.stereogum.com/uploads/2013/03/LuluJamesCloserVideo-608x315.png"
     }, {
         "id": 9,
         "name": "Nick Cave",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "bio": "Nicholas Edward Cave AO is an Australian musician, singer-songwriter, author, screenwriter, composer and occasional actor, best known for fronting the rock band Nick Cave and the Bad Seeds. Cave's music is generally characterised by his baritone voice, emotional intensity, a wide variety of influences and lyrical obsessions with death, religion, love and violence.",
+        "image": "https://www.grammy.com/sites/com/files/styles/news_detail_header/public/gettyimages-464189471.jpg?itok=xPpZgBJi"
     }, {
         "id": 10,
         "name": "Nine Inch Nails",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "bio": "Nine Inch Nails, is an American industrial rock band formed in 1988 in Cleveland, Ohio. Singer, producer and instrumentalist Trent Reznor was the only permanent member until the addition of English musician Atticus Ross in 2016. Reznor recorded the debut NIN album, Pretty Hate Machine (1989), while working as a janitor at a Cleveland recording studio. After feuding with the label TVT Records about promotion, Reznor signed with Interscope Records and released the EP Broken (1992), with a different sound. Albums The Downward Spiral (1994) and The Fragile (1999) were released to critical acclaim and commercial success.",
+        "image": "https://hype.my/wp-content/uploads/2015/12/Nine-Inch-Nails.jpg"
     }, {
         "id": 11,
         "name": "Jack White",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "bio": "John Anthony White is an American singer, songwriter, multi-instrumentalist and producer. He is best known as the lead singer and guitarist of the duo The White Stripes, but has also had success in other bands and as a solo artist. White has enjoyed consistent critical and popular success and is widely credited as one of the key artists in the garage rock revival of the 2000s. He has won twelve Grammy Awards, and all three of his solo albums have reached number one on the Billboard charts. Rolling Stone ranked him number 70 on its 2010 list of 'The 100 Greatest Guitarists of All Time'.",
+        "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-28187-20140528-jackwhite-x1800-1401300737.jpg?crop=900:600&width=440"
     }, {
         "id": 12,
         "name": "Sisters of Mercy",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "bio": "The Sisters of Mercy are an English rock band, formed in 1980 in Leeds. After achieving early underground fame there, the band had their commercial breakthrough in the mid-1980s and sustained it until the early 1990s, when they stopped releasing new recorded output in protest against their record company WEA. Currently, the band are a touring outfit only.",
+        "image": "http://2.bp.blogspot.com/-dcwn1RDsqB0/VPjkznbVPRI/AAAAAAAABfA/8waXTqlQPMM/s1600/som90%2B36.jpg"
     }, {
         "id": 13,
         "name": "Iron Maiden",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "bio": "Iron Maiden are an English heavy metal band formed in Leyton, East London, in 1975 by bassist and primary songwriter Steve Harris. The band's discography has grown to thirty-nine albums, including sixteen studio albums, twelve live albums, four EPs, and seven compilations. Pioneers of the new wave of British heavy metal, Iron Maiden achieved initial success during the early 1980s. After several line-up changes, the band went on to release a series of UK and US platinum and gold albums, including 1982's The Number of the Beast, 1983's Piece of Mind, 1984's Powerslave, 1985's live release Live After Death, 1986's Somewhere in Time and 1988's Seventh Son of a Seventh Son.",
+        "image": "http://cdn.mos.musicradar.com/images/artist-news/iron-maiden/Iron-Maiden-band-white-1200-80.jpg"
     }, {
         "id": 14,
         "name": "Cameo",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "bio": "Cameo is an American soul-influenced funk group that formed in 1974. Cameo was initially a 14-member group known as the New York City Players; this name was later changed to Cameo to avoid being confused with Ohio Players, another funk group in the 1970s. As of 2009, some of the original members continue to perform together, while two others were hired by the hip hop group Outkast. In 2015, Cameo announced a new residency show at the Westgate Las Vegas Resort & Casino, opening in March 2016. On February 20, 2019, Larry Blackmon of Cameo announced 'El Passo', the first new single from the band in 19 years.",
+        "image": "http://wavenewspapers.com/wp-content/uploads/2016/03/Cameo-Tasty-West.jpg"
     }, {
         "id": 15,
         "name": "Morris Day & The Time",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "bio": "Morris Day and the Time is an American musical group that was created in Minneapolis in 1981 by Prince. Their work has been a part of the formation of the Minneapolis sound, featuring a mix of soul music and dance music with funk, rock n roll, and more. Led by singer-songwriter Morris Day, the band members are known for having been close Prince associates, and are arguably the most successful artists who have worked with him, achieving particular popularity with R&B fans with tracks such as 'Jerk Out' and 'Jungle Love'. Band members Jimmy Jam and Terry Lewis are also long-time collaborators with Janet Jackson, producing all of her most successful albums. Jam and Lewis produced The SOS Band, Johnny Gill and many other R&B artists also.",
+        "image": "https://2zwmzkbocl625qdrf2qqqfok-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/17170427_web1_190605-SFE-M-AMorrisDay.jpg"
     }, {
         "id": 16,
         "name": "Primus",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "bio": "Primus is an American funk metal band formed in El Sobrante, California in 1984. The band is currently composed of bassist/vocalist Les Claypool, guitarist Larry 'Ler' LaLonde and drummer Tim 'Herb' Alexander. Primus originally formed in 1984 with Claypool and guitarist Todd Huth, later joined by drummer Jay Lane, though the latter two departed the band at the end of 1988. Featuring LaLonde and Alexander, Primus recorded their debut Suck on This in 1989, followed by four studio albums: Frizzle Fry, Sailing the Seas of Cheese, Pork Soda, and Tales from the Punchbowl.",
+        "image": "https://www.punknews.org/images/bands/primus-1331672625.jpg"
     }, {
         "id": 17,
         "name": "Mega Death",
-        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "Use a placeholder image online"
+        "bio": "Megadeth is an American heavy metal band from Los Angeles, California. Guitarist Dave Mustaine and bassist David Ellefson formed the band in 1983 shortly after Mustaine's dismissal from Metallica. Along with Metallica, Anthrax, and Slayer, Megadeth is one of the 'big four' of American thrash metal, responsible for its development and popularization. Their music features complex arrangements and fast rhythm sections, and lyrical themes of death, war, politics, and religion. ",
+        "image": "https://images.genius.com/00a3fe181facadecf75a6e2b8e5bb1a7.800x547x1.jpg"
     }
 ]
