@@ -16,8 +16,8 @@ class StagePerformanceListResource extends JsonResource
     {
         return [
             "id"        => $this->id,
-            "timedate"  => $this->timedate,
-            "duration"  => $this->duration,
+            "starttime"  => $this->starttime,
+            "endtime"  => $this->endtime,
             "artist_name" => $this->artist->name,
 
         ];
