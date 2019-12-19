@@ -15,8 +15,8 @@ class CreatePerformancesTable extends Migration
     {
         Schema::create('performances', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->dateTime('timedate');
-            $table->time('duration');
+            $table->dateTime('starttime');
+            $table->dateTime('endtime');
             $table->bigInteger('stage_id')->unsigned()->nullable();
             $table->bigInteger('artist_id')->unsigned()->nullable();
 

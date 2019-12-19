@@ -19,8 +19,8 @@ class PerformancesTableSeeder extends Seeder
             Performance::create(array(
                 'stage_id' =>$obj->stage_id,
                 'artist_id' =>$obj->artist_id,
-                'timedate' =>$obj->timedate,
-                'duration' =>$obj->duration
+                'starttime' =>$obj->starttime,
+                'endtime' => $obj->endtime
             ));
         }
     }
