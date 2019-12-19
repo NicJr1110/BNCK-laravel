@@ -28,7 +28,7 @@ The data that will be seeding is found in database/data
 run the following 
  - vagrant ssh 
  - cd code
- - artisan migrate:refresh -seed
+ - artisan migrate:refresh --seed
 
 ---
 
@@ -106,6 +106,7 @@ Will return the performances on a stage with the given `id`
 
 #### Data Format 
 
+```html
 { 
     "data": [
         {
@@ -117,6 +118,7 @@ Will return the performances on a stage with the given `id`
         },
     ]
 }
+```
 
 #### `GET /artists/<id>/performances`
 
@@ -124,6 +126,7 @@ Will get performances of the artist with the provided `id`
 
 #### Data Format 
 
+```html
 { 
     "data": [
         {
@@ -135,4 +138,4 @@ Will get performances of the artist with the provided `id`
         },
     ]
 }
-
+```
